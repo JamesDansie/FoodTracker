@@ -14,6 +14,7 @@
 		775ED8102447F99400A8D066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775ED80F2447F99400A8D066 /* Assets.xcassets */; };
 		775ED8132447F99400A8D066 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775ED8112447F99400A8D066 /* LaunchScreen.storyboard */; };
 		775ED81E2447F99400A8D066 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775ED81D2447F99400A8D066 /* FoodTrackerTests.swift */; };
+		7793383A244A32100031EAA5 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77933839244A32100031EAA5 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		775ED8192447F99400A8D066 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		775ED81D2447F99400A8D066 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		775ED81F2447F99400A8D066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77933839244A32100031EAA5 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				775ED8062447F99400A8D066 /* AppDelegate.swift */,
+				77933839244A32100031EAA5 /* RatingControl.swift */,
 				775ED8082447F99400A8D066 /* SceneDelegate.swift */,
 				775ED80A2447F99400A8D066 /* ViewController.swift */,
 				775ED80C2447F99400A8D066 /* Main.storyboard */,
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7793383A244A32100031EAA5 /* RatingControl.swift in Sources */,
 				775ED80B2447F99400A8D066 /* ViewController.swift in Sources */,
 				775ED8072447F99400A8D066 /* AppDelegate.swift in Sources */,
 				775ED8092447F99400A8D066 /* SceneDelegate.swift in Sources */,

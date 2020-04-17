@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="XVn-fI-t2i">
-                                <rect key="frame" x="16" y="20" width="343" height="428.5"/>
+                                <rect key="frame" x="16" y="20" width="343" height="480.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPu-Im-SGd">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -46,9 +46,13 @@
                                             <outletCollection property="gestureRecognizers" destination="0kD-yk-YFj" appends="YES" id="n6q-H6-qF4"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oTP-xl-3Si" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="436.5" width="252" height="44"/>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ZRo-j8-N6e" secondAttribute="trailing" id="w7q-V6-ReT"/>
+                                    <constraint firstItem="oTP-xl-3Si" firstAttribute="top" secondItem="WQb-87-Qde" secondAttribute="bottom" constant="8" id="xyj-42-WvX"/>
                                 </constraints>
                             </stackView>
                         </subviews>
